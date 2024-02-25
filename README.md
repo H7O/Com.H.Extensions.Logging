@@ -7,7 +7,7 @@ It allows users to customize their logging DB table, columns and SQL commands to
 This library is designed to accept DbConnection objects, which means it can work with any ADO.NET provider that implements DbConnection classes.
 It looks for specific configuration in your settings file (e.g. appsettings.json or appsettings.xml), which is used to configure the database logger provider.
 
-It also available on NugGet: [https://www.nuget.org/packages/Com.H.Extensions.Logging/](https://www.nuget.org/packages/Com.H.Extensions.Logging)
+This library is also available at NugGet: [https://www.nuget.org/packages/Com.H.Extensions.Logging/](https://www.nuget.org/packages/Com.H.Extensions.Logging)
 
 The below are few examples on how to use this library.
 
