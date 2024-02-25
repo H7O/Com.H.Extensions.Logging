@@ -9,9 +9,9 @@ It looks for specific configuration in your settings file (e.g. appsettings.json
 
 This library is also available at NugGet: [https://www.nuget.org/packages/Com.H.Extensions.Logging/](https://www.nuget.org/packages/Com.H.Extensions.Logging)
 
-The below are few examples on how to use this library.
+Below is a sample of how to use this library in a .NET Core Worker Service.
 
-## Sample 1
+## Example usage in a .NET Core Worker Service
 This sample demonstrates how to configure appsettings.xml (note the .xml extension) instead of appsettings.json which makes it easier to work with special characters without escaping them.
 
 > Although you can use appsettings.json, it is recommended to use appsettings.xml for better readability and to avoid escaping special characters.
@@ -29,7 +29,8 @@ dotnet add package Com.H.Extensions.Logging
 dotnet add package Microsoft.Data.SqlClient
 dotnet add package Microsoft.Extensions.Configuration.Xml
 ```
-> **Note**: The above commands will add Com.H.Extensions.Logging package and Microsoft.Data.SqlClient to our project. You can do that manually by adding the package to your .csproj file or using the NuGet package manager GUI in Visual Studio.
+> **Note**: The above commands will add Com.H.Extensions.Logging package, Microsoft.Data.SqlClient and Microsoft.Extensions.Configuration.Xml to our project. 
+You can do that manually by adding the package to your .csproj file or using the NuGet package manager GUI in Visual Studio.
 
 3) Now let's create the database table that will be used for logging. Run the following SQL script in your SQL Server database.
 ```sql
@@ -37,7 +38,7 @@ dotnet add package Microsoft.Extensions.Configuration.Xml
 create database logging_test_db;
 ```
 
-4) Now let's setup our appsettings.xml file. Create a new file called appsettings.xml in the root of your project and add the following content to it.
+4) Next let's setup our appsettings.xml file. Create a new file called appsettings.xml in the root of your project and add the following content to it.
 ```xml
 <settings>
   <ConnectionStrings>
@@ -206,7 +207,7 @@ namespace DbLoggerTest
 
 ## Extra helpful settings that can be added to the appsettings.xml file
 
-There are couple of extra settings that can be added to the appsettings.xml file to customize the behavior of the database logger provider.
+There are few extra settings that can be added to the appsettings.xml file to customize the behavior of the database logger provider.
 
 ```xml
 <settings>
