@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net8", "Com.H.Extensions.Logging\Net8.csproj", "{B5D0687A-0CF8-4228-8C7C-A1FE8A4AED7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F479FEB1-B8C7-436D-A95A-8BEA28A8DEE3}"
+	ProjectSection(SolutionItems) = preProject
+		128x128.jpg = 128x128.jpg
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D0687A-0CF8-4228-8C7C-A1FE8A4AED7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D0687A-0CF8-4228-8C7C-A1FE8A4AED7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D0687A-0CF8-4228-8C7C-A1FE8A4AED7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D0687A-0CF8-4228-8C7C-A1FE8A4AED7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02A65E08-558E-435E-AD0B-9A4730EA8411}
+	EndGlobalSection
+EndGlobal
